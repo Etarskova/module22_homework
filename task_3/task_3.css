@@ -1,0 +1,17 @@
+button {
+    margin: 25px;
+    height: 60px;
+    width: 150px; 
+    background-color:rgba(126, 238, 250, 0.901);
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(4, 125, 144);
+    font-family: 'Times New Roman', Times, serif;
+}

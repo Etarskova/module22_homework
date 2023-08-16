@@ -1,0 +1,11 @@
+button {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    margin: 25px;
+}
+
+.btn-icon {
+    margin-left: 8px;
+}

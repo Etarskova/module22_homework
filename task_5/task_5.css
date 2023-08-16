@@ -1,0 +1,61 @@
+.frame {
+    border: 1px solid rgb(43, 98, 226);
+    width: 700px;
+    height: 500px;
+    margin: 25px;
+    padding: 5px;
+    font-weight: 600;
+    
+}
+
+.control-block {
+    margin-bottom: 7px;
+}
+
+button,
+input {
+    border: 1px solid rgb(43, 98, 226);
+    background-color: rgba(147, 233, 255, 0.834);
+    font-weight: bold;
+}
+
+input {
+    width: 500px;
+}
+
+.msg-block {
+    border: 1px solid rgb(43, 98, 226);
+    height: 470px;
+    padding: 0 40px;
+    background-color: rgba(205, 246, 255, 0.606);
+    scroll-behavior: smooth;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.msg-block a {
+    text-decoration: none;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.msg-block>div {
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+.msg-block .inputMessage {
+    align-self: flex-end;
+    background-color: rgb(155, 221, 244);
+    color: blue;
+}
+
+.msg-block .outputMessage {
+    align-self: flex-start;
+    background-color: rgb(183, 251, 182);
+    font-style: italic;
+}
